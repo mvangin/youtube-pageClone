@@ -1,0 +1,110 @@
+body {
+    background: rgb(236, 235, 235);
+    margin: 0px;
+    padding: 0px;
+}
+
+input {
+    width: 450px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    margin: 0px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.material-icons {
+    font-size: 20px;
+    margin: 5px 10px;
+    padding: 5px;
+}
+
+nav img {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 20px;
+}
+
+#searchContainer {
+    display: flex;
+    background:rgb(207, 206, 206);
+    min-width: 500px;   
+    border-radius: 5px;
+    border: 1px solid rgb(207, 206, 206);
+}
+
+#extrasContainer {
+    min-width: 220px;
+}
+
+
+#bodyContainer{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+aside {
+    width: 400px;
+    height: 1000px;
+    
+}
+
+.embedMovie iframe {
+    width: 500px;
+    height: 373px;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+#autoplayIcon {
+    font-size: 50px;
+}
+
+.flexContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 10px;
+
+}
+
+.videoContainer {
+    display: flex;
+    text-align: left;
+    min-width: 400px;
+
+}
+
+aside img {
+    margin-left: 5px;
+    margin-bottom : 10px;
+    width: 150px;
+    height: 100px;
+}
+
+hr {
+    color: black;
+}
+
+aside div p {
+    margin: 10px 0px 0px 5px;
+}
